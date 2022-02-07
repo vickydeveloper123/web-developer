@@ -3,39 +3,60 @@
     <tittle>
         signup form
     </tittle>
+    <link rel="stylesheet" href="Forms.css">
+<!--# is the id selector so that it can select at that particular point---->
+<style>
+   #h1tittle {
+
+    font-size: 50px;
+
+    }
+</style>
+
+
+
+
 </head>
 
+
 <body>
-   <h2>signup form</h2> 
-<form>
+
+   <div class="header">
+     <h1 style="color:brown"> OM NAMAH SHIVAYA  </h1>
+     
+
+   </div>
+
+   <h2 class="tittle" style="color:blanchedalmond;">signup form</h2> 
+<form class="container">
    <!--input is self closing tag.-->
 
    <div>
 
-   <label name="lblname" for="InputEmail">Email Address</label> 
+   <label class="mandatory-fields" name="lblname" for="InputEmail">Email Address</label> 
    <input type="email" name="inputEmail">
     
    </div>
 
    <div>
-   <label name="lbl name"for="InputName">NAME</label> 
+   <label class="mandatory-fields" name="lbl name"for="InputName">NAME</label> 
    <input type="text" name="inputname">
    </div>
 
   <div>
-   <label name="lblUserName" for="lblName">UserName</label> 
+   <label class="mandatory-fields" name="lblUserName" for="lblName">UserName</label> 
    <input type="username" name="inputUsername">
   </div>
 
   <div>
-    <label name="lblPassword" for="lblPassword">Password</label> 
-    <input type="Password" name="inputPassword">
+    <label class="mandatory-fields" name="lblPassword" for="lblPassword">Password</label> 
+    <input type="Password" name="Password">
    
   </div>
 
   <div>
 
-    <label name="DateOfBirth" for="lblDateOfBirth">DATE OF BIRTH</label> 
+    <label  name="DateOfBirth" for="lblDateOfBirth">DATE OF BIRTH</label> 
     <input type="date" name="input Date of birth">
    
   </div>

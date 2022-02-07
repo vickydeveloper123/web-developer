@@ -1,0 +1,48 @@
+/*using ID selector in external css */
+/*#h1tittle{
+   font-size: larger;
+   font-family: 'Courier New', Courier, monospace;
+   color: blue;
+} */
+
+.tittle{
+    background-color: brown;
+    border: 1px groove black;
+    border-bottom: 5px dashed blueviolet;
+    padding: 10px;
+    padding-left: 0cm;
+    margin: 10px;
+    margin-bottom: auto;
+    padding: 10px 20px 30px 40px ;
+    margin: 10px 20px 30px 40px;
+
+}
+
+
+
+/* UNIVERSAL SELECTOR  */
+*{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+/*using class selector*/
+.mandatory-fields{
+    font-weight:bold;
+
+}
+
+/*it is used to change the background value of the container*/
+.container{
+    background-color: aquamarine;
+}
+
+
+.header{
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://t3.ftcdn.net/jpg/02/72/37/32/360_F_272373287_sYNBqiWhcffOuLuhbwxLgPHNxcY2ePcN.jpg");
+
+}
+
+
